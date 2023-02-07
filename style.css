@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+body {
+    background-color: rgb(214, 212, 212);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.myphoto {
+    width: 250px;
+    height: 233px;
+    border-radius: 22px;
+    box-shadow: 4px 4px 122px #9284c4b2;
+}
+
+
+.myinfo {
+    display: flex;
+    margin-bottom: 33px;
+    padding-top: 7px;
+}
+
+
+.myinfo-text {
+    margin-left: 33px;
+}
+
+
+.margin {
+    padding-top: 0px;
+}
+
+
+.myinfo p {
+    color: #86898f;
+    margin: 0;
+}
+
+
+.myinfo h4{
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width:700px) {
+    .myinfo {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 24px;
+    border-radius: 5vh;
+    width: 100%;
+}
+
+
+.bg-white {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    background-color: #f7f0ff;
+}
+
+
+.bg-invisible{
+    background-color: #b9b4ce6d;
+    margin-bottom: 27px;
+}
+
+
+.card h2 {
+    margin-bottom: 33px;
+    margin-left: 22px;
+}
+
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+
+.table {
+    width: 100%;
+}
+
+
+.table th{
+    padding-bottom: 7.5px;
+}
+
+
+table th:nth-child(2) {
+    color: #86898f;
+}
+
+
+.contact {
+    color: rgb(59, 55, 72);
+}
+
+.contact h2 {
+    text-align: center;
+    color: rgb(59, 55, 72);
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+.form-group label {
+    display:block;
+}
+
+
+.form-group input {
+    border: 1px solid rgb(32, 20, 4);
+    height: 11px;
+    padding: 8.5px;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 5px 2.5px 10px rgb(108, 108, 108);
+    justify-content: center;
+    border-radius: 33px;
+}
+
+
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(58, 40, 17);
+    padding: 2px 0px 0px 25px;
+    height: 32px;
+    color: black;
+    border-radius: 50vh;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 5px 2.5px 10px rgb(108, 108, 108);
+    text-align: center;
+}
+
+
+.form-group input {
+    text-align: center;
+}
+
+
+.row .form-group {
+    width: 50%;
+}
+
+
+.button {
+    color: rgb(0, 0, 0);
+    background-color: #fbfbfb5a;
+    margin-top: 27px;
+    padding: 10px 15px;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 22px;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    width: 22%;
+}
+
+
+.button:hover {
+    color: #000000;
+    opacity: 0.8;
+    background-color: #fff7f7e0;
+}
